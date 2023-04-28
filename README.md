@@ -2,7 +2,7 @@
 
 #### By Asia Kaplanyan
 
-#### An API specifically designed to be used in conjunction with  the Karmaplusplus.Solution project in this repository
+#### An API specifically designed to be used in conjunction with the Karmaplusplus.Solution project in this repository
 
 ## Technologies Used
 
