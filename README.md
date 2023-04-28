@@ -77,11 +77,11 @@ You are welcome to test this API via [Postman](https://www.postman.com/) or [cur
 ### Available Endpoints
 
 ```
-GET http://localhost:5000/api/services/
-GET http://localhost:5000/api/services/{id}
-POST http://localhost:5000/api/services/
-PUT http://localhost:5000/api/services/{id}
-DELETE http://localhost:5000/api/services/{id}
+GET https://localhost:7225/api/Services/
+GET http://localhost:7225/api/Services/{id}
+POST http://localhost:7225/api/Services/
+PUT http://localhost:7225/api/Services/{id}
+DELETE http://localhost:7225/api/Services/{id}
 ```
 
 Note: `{id}` is a variable and it should be replaced with the id number of the service you want to GET, PUT, or DELETE.
