@@ -7,6 +7,6 @@ namespace Karmaplusplus.Models
     public string Description { get; set; }
     public string Email { get; set; }
     public float ZipCode { get; set; }
-    public string UserId { get; set; }
+    
   }
 }
