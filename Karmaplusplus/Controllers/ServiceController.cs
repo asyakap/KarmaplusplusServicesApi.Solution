@@ -17,10 +17,14 @@ namespace Karmaplusplus.Controllers
 
     // GET: api/services?page=1&pagesize=20
     [HttpGet]
-    public async Task<IActionResult> GetServices( int id, string serviceName, string description, string email, int zipCode, int page = 1, int pageSize = 10)
+    public async Task<IActionResult> GetServices( int id, string userId, string serviceName, string description, string email, string zipCode, int page = 1, int pageSize = 10)
     {
       IQueryable<Service> query = _db.Services.AsQueryable();
 
+      if (userId != null)
+      {
+        query = query.Where(entry => entry.UserId == userId);
+      }
       if (serviceName != null)
       {
         query = query.Where(entry => entry.ServiceName == serviceName);
