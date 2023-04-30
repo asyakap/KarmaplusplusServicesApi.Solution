@@ -113,7 +113,7 @@ When making a POST request to `http://localhost:5000/api/services/`, you need to
   "service": "lesson",
   "description": "Free English lessons",
   "email": "english.lessons@gmail.com",
-  "zip code": 98052
+  "zip code": "98052"
 }
 ```
 
@@ -127,7 +127,7 @@ When making a PUT request to `http://localhost:5000/api/services/{id}`, you need
   "service": "lesson",
   "description": "Free English lessons",
   "email": "english.lessons@gmail.com",
-  "zip code": 98052
+  "zip code": "98052"
 }
 ```
 
