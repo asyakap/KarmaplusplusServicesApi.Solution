@@ -5,3 +5,6 @@
 * 9:20: research APIs for charity
 * 10:00 try out https://charityapi.orghunter.com/ and learn it's specifications
 …
+
+#### Friday, 05/12
+* 3:00 PM: research APIs for volunteering opportunities
