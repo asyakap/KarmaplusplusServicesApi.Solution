@@ -1,4 +1,4 @@
-## 🍓 The Karma++ Services Api
+## The Karma++ Services Api
 
 #### By Asia Kaplanyan
 
@@ -88,7 +88,7 @@ Note: `{id}` is a variable and it should be replaced with the id number of the s
 
 #### Optional Query String Parameters for GET Request
 
-GET requests to `http://localhost:5000/api/services/` can optionally include query strings to filter or search backyards. For example:
+GET requests to `http://localhost:7225/api/services/` can optionally include query strings to filter or search services. For example:
 
 | Parameter   | Type        |  Required    | Description |
 | ----------- | ----------- | -----------  | ----------- |
@@ -106,11 +106,11 @@ GET http://localhost:5000/api/services?service=lesson
 
 #### Additional Requirements for POST Request
 
-When making a POST request to `http://localhost:5000/api/services/`, you need to include a **body**. Here's an example body in JSON:
+When making a POST request to `http://localhost:7225/api/services/`, you need to include a **body**. Here's an example body in JSON:
 
 ```json
 {
-  "service": "lesson",
+  "serviceName": "lesson",
   "description": "Free English lessons",
   "email": "english.lessons@gmail.com",
   "zip code": "98052"
@@ -119,12 +119,12 @@ When making a POST request to `http://localhost:5000/api/services/`, you need to
 
 #### Additional Requirements for PUT Request
 
-When making a PUT request to `http://localhost:5000/api/services/{id}`, you need to include a **body** that includes the service's `serviceId` property. Here's an example body in JSON:
+When making a PUT request to `http://localhost:7225/api/services/{id}`, you need to include a **body** that includes the service's `serviceId` property. Here's an example body in JSON:
 
 ```json
 {
   "serviceId": 1,
-  "service": "lesson",
+  "serviceName": "lesson",
   "description": "Free English lessons",
   "email": "english.lessons@gmail.com",
   "zip code": "98052"
@@ -134,7 +134,7 @@ When making a PUT request to `http://localhost:5000/api/services/{id}`, you need
 And here's the PUT request we would send the previous body to:
 
 ```
-http://localhost:5000/api/services/1
+http://localhost:7225/api/services/1
 ```
 
 Notice that the value of `serviceId` needs to match the id number in the URL. In this example, they are both 1.
