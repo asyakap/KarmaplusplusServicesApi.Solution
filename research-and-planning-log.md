@@ -11,3 +11,5 @@
 
 #### Tuesday, 05/16
 * 8:00 AM: search for more APIs for volunteering opportunities
+* 2:45 PM: research on how to host the app
+* 3:45 PM: start working on hosting databases and project
