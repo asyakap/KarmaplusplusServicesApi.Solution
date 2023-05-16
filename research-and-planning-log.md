@@ -8,3 +8,6 @@
 
 #### Friday, 05/12
 * 3:00 PM: research APIs for volunteering opportunities
+
+#### Tuesday, 05/16
+* 8:00 AM: search for more APIs for volunteering opportunities
