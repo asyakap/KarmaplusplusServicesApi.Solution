@@ -16,3 +16,4 @@
 
 #### Wednesday, 05/17
 * 8:00 AM: troubleshoot the hosting issues
+* 2:40 PM: read about azure hosting
